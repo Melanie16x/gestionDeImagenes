@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="mx-auto">
+            <form id="formNuevaImagen" method="POST" class="rounded border p-3">
+                <h3 class="mb-3 text-center bg-primary text-light rounded p-2">Agrega una Imagen</h3>
+                <div class="mb-3">
+                    <label for="imagen" class="form-label">Imagen</label>
+                    <input type="file" class="form-control" id="imagen" name="imagen">
+                </div>
+                <button type="submit" class="btn btn-outline-success">Agregar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="/js/crearImagen.js"></script>
+
+<%- include('partials/footer') %>

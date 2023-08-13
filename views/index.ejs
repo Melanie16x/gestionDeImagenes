@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+    <div class="container">
+
+        <div class="row mt-5">
+            <h1 class="text-center border-botton">Galería</h1>
+            <div class="col">
+                <div class="col-md-3 mb-2">
+                    <a href="/nuevaImagen" class="btn btn sm btn-primary" id>Agregar Imagen</a>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Imagen</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead> 
+                    <tbody id="listado">
+          
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/mostrarImagenes.js"></script>
+
+    <%- include('partials/footer') %>
